@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script type="text/javascript" src="Scripts.js">
+        </script>
+        <title>Portfolio</title>
+        
+    </head>
+
+    <body>
+        <div>
+        <header>
+            <nav class = 'topBar'>
+                <a class="navItem" href="#about">
+                    <span id>
+                        About
+                    </span>
+                </a>
+                <a class="navItem" href="#work"> 
+                    <span>
+                        Work
+                    </span>
+                </a>
+                <a class="navItem" href="Contact.html"> 
+                    <span>
+                        Contact
+                    </span>
+                </a>
+            </nav>
+        </div>
+        </header>
+
+        <div>
+            <section>
+                <body>
+                    <h1 class = 'topMe'>
+                       <u> <i> Syed Asad Ali Hasani </i> </u>                         
+                       <br><i style="font-size: 80%;">Fullstack Developer</i>
+                    </h1>
+                </body>
+            </section>
+        </div>
+
+        <div>
+            <main>
+                <section class = 'aboutMe' id = "about">
+                    <h2 class = 'aboutMeT'> About me </h2>
+                    <br> <br>
+                    <p class = 'aboutMeP'>
+                       My name is Syed Asad Ali Hasani, I'm a recent Computer Science graduate currently on their way to becoming a Fullstack Developer. When i'm not learning code you can find me playing games, reading books or quietly dissocating!
+                    </p>
+                </section>
+
+                <section class = 'Work' id = "work">
+                    <h2 class = 'WorkT'> My Work </h2>
+                    <br> <br>
+
+                    <div>
+                        <div class="WorkP-container">
+                            <div class="WorkP-Text">
+                                <p style="font-size: 135%;">
+                                    <br> <br> 
+                                    Creation of Guessing game in which you are given 3 doors, and need to open the 2 doors that do not contain a robot, implemented with a highscore function.
+                                </p>   
+                            </div>
+
+                            <img src="./Assets/Work1.PNG"
+                                 alt="A picture of the game"
+                                 class="portrait"
+                            />
+                        </div>
+                        <br> <br> <br>
+                        <div class="WorkP-container">
+                            <img src="./Assets/Work2.PNG"
+                                 alt="A picture of the game"
+                                 class="portrait2"
+                            />
+                            <div class="WorkP-Text">
+                                <p style="font-size: 135%;">
+                                    <br> <br> 
+                                    Using machine and deep learning, created a program that would take in a sketch from the user, and convert the sketch into fully editable HTML code.
+                                </p>   
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
+            
+        </div>
+    </body>
+
+    <footer>
+        <section>
+            <div>
+                <div class = 'row'>
+                    <b>Date:</b>
+                    <div class = "column">
+                         <p id="date"></p>
+                    </div>
+                    <b>Time:</b>
+                    <div class = "column">
+                         <p id="time"></p>
+                    </div>
+                    <b class = 'tab'>Contact Email: </b>
+                    <div class = "column">
+                        Asad.A.Hasani5@gmail.com
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </footer>
+    
+    <script type="text/javascript">
+
+         n =  new Date();
+         y = n.getFullYear();
+         m = n.getMonth() + 1;
+         d = n.getDate();
+         h = n.getHours();
+         mi = n.getMinutes();
+         se = n.getSeconds();
+         document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+         document.getElementById("time").innerHTML = h + " : " + mi + " : " + se;
+    </script>
+
+</html>
