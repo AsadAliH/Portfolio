@@ -1,0 +1,120 @@
+
+.topBar {
+    position:fixed;
+    width:100%;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    margin:auto;
+    align-items: center;
+
+    text-align:center;
+    font-size: 30px;
+    background-color: grey;
+    opacity: 90%;
+  }
+
+.navItem {
+    color:black;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.topMe {
+      background-image: url('./Assets/background.jpeg');
+      background-size: auto;
+      text-align: center;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      color:white;
+      margin:auto;
+}
+.topMe2 {
+    background-image: url('./Assets/background.jpeg');
+      background-size: auto;
+      text-align: center;
+      padding-top: 100px;
+      padding-bottom: 50px;
+      color:white;
+      margin:auto;
+}
+.aboutMe {
+    background-color: rgb(163, 162, 162);
+    margin:auto;
+    padding: 100px;
+}
+.aboutMeT {
+    text-align: center;
+}
+.aboutMeP {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Work {
+    background-color: #FA8072;
+    margin:auto;
+    padding: 100px;
+}
+.WorkT {
+    text-align: center;
+}
+
+.portrait {
+    width: 500px;
+    height: 300px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+  }
+  .portrait2 {
+    width: 700px;
+    height: 300px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+    margin-right: 50px;
+  }
+  
+  .WorkP-container {
+    display: flex;
+  }
+  
+  .WorkP-text {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  #date {
+      color:black;
+  }
+
+  .column {
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .row {
+    text-align: center;
+    padding-left: 50px;
+    margin: 0 auto;
+}
+
+.tab {
+    padding-left:41em;
+}
+.tab2 {
+    padding-left:15em;
+}
+
+
+.contact-container {
+    display: flex;
+    padding-left: 50px;
+    color:white;
+  }
+
+.contactB {
+        background-image: url('./Assets/background.jpeg');
+}
